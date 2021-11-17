@@ -1,4 +1,4 @@
-# A collection of Scala programms I wrote for practice.
+# A collection of Kotlin programms I wrote for practice.
 
 Program/problem description is given as doc comment on top of each program.
 
