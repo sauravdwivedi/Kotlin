@@ -8,7 +8,7 @@ https://www.hackerrank.com/
 
 https://code-exercises.com/
 
-# Compilation:
+Compilation:
 
 Macbook: 
 
