@@ -13,4 +13,5 @@ https://code-exercises.com/
 Macbook: 
 
 % kotlinc <file_name>.kt
+
 % kotlin <file_name>Kt
