@@ -8,10 +8,8 @@ https://www.hackerrank.com/
 
 https://code-exercises.com/
 
-Compilation:
+## How to run (on Macbook) 
 
-Macbook: 
+> % kotlinc <file_name>.kt
 
-% kotlinc <file_name>.kt
-
-% kotlin <file_name>Kt
+> % kotlin <file_name>Kt
