@@ -8,7 +8,7 @@ https://www.hackerrank.com/
 
 https://code-exercises.com/
 
-## How to run (on Macbook) 
+## How to run
 
 > % kotlinc <file_name>.kt
 
