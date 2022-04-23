@@ -11,15 +11,15 @@
  */
 
 
-fun stairCase(n: Int): String {
+fun stairCase(stairCaseSize: Int): String {
     var stairCase: String = ""
     
-    for (x in 1 until n + 1) {
-        for (y in 0 until n - x) {
+    for (i in 1 until stairCaseSize + 1) {
+        for (j in 0 until stairCaseSize - x) {
            stairCase += " "
         }
         
-        for (y in 0 until x) {
+        for (k in 0 until x) {
            stairCase += "#"
         }
         
@@ -32,8 +32,8 @@ fun stairCase(n: Int): String {
 
 fun main() {
     print("Size of staircase: ")
-    val n = readLine()!!.trim().toInt()
-    val result = stairCase(n)
-    println("The staircase of size $n!")
+    val stairCaseSize = readLine()!!.trim().toInt()
+    val result = stairCase(stairCaseSize)
+    println("The staircase of size $stairCaseSize!")
     println(result)
 }
