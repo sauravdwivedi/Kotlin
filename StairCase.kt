@@ -10,8 +10,7 @@
  *  a staircase for a given integer n as input.
  */
 
-class StairCase(var stairCase: String = "") {
-    
+class StairCase(var stairCase: String = "") {    
     fun stairCase(stairCaseSize: Int): String {
         for (i in 1 until stairCaseSize + 1) {
             for (j in 0 until stairCaseSize - i) {
