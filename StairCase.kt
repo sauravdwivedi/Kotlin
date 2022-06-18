@@ -10,24 +10,27 @@
  *  a staircase for a given integer n as input.
  */
 
-fun stairCase(stairCaseSize: Int): String {
-    var stairCase: String = ""
-    for (i in 1 until stairCaseSize + 1) {
-        for (j in 0 until stairCaseSize - x) {
-           stairCase += " "
+class StairCase(var stairCase: String = "") {
+    
+    fun stairCase(stairCaseSize: Int): String {
+        for (i in 1 until stairCaseSize + 1) {
+            for (j in 0 until stairCaseSize - i) {
+                this.stairCase += " "
+            }
+            for (k in 0 until i) {
+               this.stairCase += "#"
+            }
+            this.stairCase += "\n"
         }
-        for (k in 0 until x) {
-           stairCase += "#"
-        }
-        stairCase += "\n"
+        return this.stairCase
     }
-    return stairCase
 }
-
+    
 fun main() {
     print("Size of staircase: ")
     val stairCaseSize = readLine()!!.trim().toInt()
-    val result = stairCase(stairCaseSize)
+    val obj = StairCase()
+    val result = obj.stairCase(stairCaseSize)
     println("The staircase of size $stairCaseSize!")
     println(result)
 }
